@@ -19,7 +19,7 @@ Read Chapters 3.1 and 3.2 in the [PCC Linux and Vim Manual](https://docs.google.
    If this directory does not exist, make it, then cd to it.  
    ```mkdir CS161B```   
    ```cd CS161B```
-5. Make a new directory for Lab1.  
+5. Make a new directory for Lab2.  
    ```mkdir Lab2```  
 6. Change into that directory  
    ```cd Lab2```  
