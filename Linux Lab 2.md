@@ -23,7 +23,7 @@ Read Chapters 3.1 and 3.2 in the [PCC Linux and Vim Manual](https://docs.google.
    ```mkdir Lab2```  
 6. Change into that directory  
    ```cd Lab2```  
-7. Copy a file from my folder to your folder.  
+7. Copy a file from a different folder to your folder.  
    ```cp ~gd.iyer/CS161B/samples/sample_a01.cpp .```  
    (Include the period at the end, this tells the command to copy the file to your current folder.) 
 8. Open the file in the vim editor.  
