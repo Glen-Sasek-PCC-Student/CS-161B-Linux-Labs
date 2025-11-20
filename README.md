@@ -1,5 +1,8 @@
 # November 2025 Updated Instructions
-
+- [Linux Lab 1](https://github.com/Glen-Sasek-PCC-Student/CS-161B-Linux-Labs/blob/main/Linux%20Lab%201.md)
+- [Linux Lab 2](https://github.com/Glen-Sasek-PCC-Student/CS-161B-Linux-Labs/blob/main/Linux%20Lab%202.md)
+- [Linux Lab 3](https://github.com/Glen-Sasek-PCC-Student/CS-161B-Linux-Labs/blob/main/Linux%20Lab%203.md)
+- [Linux Lab 4](https://github.com/Glen-Sasek-PCC-Student/CS-161B-Linux-Labs/blob/main/Linux%20Lab%204.md)
 
 # Original Instructions and Videos 
 
