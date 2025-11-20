@@ -1,8 +1,7 @@
 # Linux Lab 3 \- Advanced Vim commands
+Read Chapters 3.3 and 3.4 in the [PCC Linux and Vim Manual](https://docs.google.com/document/d/1Ap4xFkNUkUbi7kYteg0KEIu9I9_hAuDZBtubA3ExxLM/edit?usp=sharing) to prepare for this lab. 
 
-## Instructions for Lab 3
-
-Read Chapters 3.3 and 3.4 in the [PCC Linux and Vim Manual](https://docs.google.com/document/d/1Ap4xFkNUkUbi7kYteg0KEIu9I9_hAuDZBtubA3ExxLM/edit?usp=sharing) to prepare for this lab.  
+## Login and Make a Directory
 1. login to PCC Linux Server (**cslinux.pcc.edu**).  
    ```ssh your.name@cslinux.pcc.edu``` 
 2. Check you are working in your home directory.  
@@ -22,7 +21,8 @@ Read Chapters 3.3 and 3.4 in the [PCC Linux and Vim Manual](https://docs.google.
    ```mkdir Lab3```  
 6. Change into that directory  
    ```cd Lab3``` 
-7.  Copy a file from a different folder to your folder.  
+## Use vim
+7.  Copy a file to your folder.  
    ```cp ~gd.iyer/CS161B/samples/sample_a06.cpp .```  
    **Include the period at the end, this tells the command to copy the file to your current folder.** 
 8. Copy another file to your folder.  
@@ -47,6 +47,7 @@ Read Chapters 3.3 and 3.4 in the [PCC Linux and Vim Manual](https://docs.google.
 24. Type **15dd** to delete all the lines we pasted.  
 25. Enter command mode by pressing **esc**  
 26. Write and quit **:wq**  
+## Compile Source Code and Run Program
 27. The next step is to compile the C++ source code file.   
     ```g++ -Wall -g sample_a06.cpp -o sample_a06```
 28. If there are syntax errors, examine the line number of the first 2 or 3 errors and fix those before continuing. To fix the syntax errors use the Linux editor again:   
@@ -54,6 +55,7 @@ Read Chapters 3.3 and 3.4 in the [PCC Linux and Vim Manual](https://docs.google.
     Or, press the up arrow to re-use a previous command.  
 29. Run your program.  
     ```./sample_a06```
+## Save and Submit
 30. Save your command history in a file named **lab3.txt**  
     ```history > lab3.txt```  
 31. Verify the file was created.  
