@@ -1,10 +1,7 @@
 # Linux Lab 1 \- Using the Command Line
-
-## Instructions for Lab 1
-
 Read Chapters 1 and 2 in the [PCC Linux and Vim Manual](https://docs.google.com/document/d/1Ap4xFkNUkUbi7kYteg0KEIu9I9_hAuDZBtubA3ExxLM/edit?usp=sharing) to prepare for this lab. 
 
-
+## Login and Make a Directory
 1. login to PCC Linux Server (**cslinux.pcc.edu**).  
    ```ssh your.name@cslinux.pcc.edu``` 
 2. Make sure you are in your home directory.  
@@ -24,6 +21,7 @@ Read Chapters 1 and 2 in the [PCC Linux and Vim Manual](https://docs.google.com/
    ```mkdir Lab1```  
 6. Change into that directory  
    ```cd Lab1```  
+## Use vim
 7. Create a file named lab1.cpp using the vim editor.  
    ```vim lab1.cpp```
 8. Insert header comments with your name and date.  
@@ -48,13 +46,17 @@ Read Chapters 1 and 2 in the [PCC Linux and Vim Manual](https://docs.google.com/
     ```
 13. Press the escape **esc** key to return to command mode. 
 14. Press the colon **:** key to enter last line mode.
-15. Save and quit your work by typing **wq** followed by enter. You can combine w and q to write and quit or use each alone.  
+15. Save and quit your work by typing **wq** followed by enter.  
+    You can combine w and q to write and quit or use each alone.
+## Compile Source Code and Run Program
 16. The next step is to compile the C++ source code file. To compile the lab1.cpp code type:  
     ```g++ -Wall -g lab1.cpp -o lab1```  
-17. If there are syntax errors, examine the line number of the first 2 or 3 errors and fix those before continuing. To fix the syntax errors use the Linux editor again:    
-    ```vim lab1.cpp```  
+17. If there are syntax errors, examine the line number of the first error before continuing. To fix the syntax errors use the vim editor again:    
+    ```vim lab1.cpp```     
+    Or, up arrow to access previous commands.
 18. Run your program.  
     ```./lab1```
+## Save and Submit
 19. Save your command history in a file named **lab1.txt**  
     ```history > lab1.txt```  
 20. Verify the file was created.  
