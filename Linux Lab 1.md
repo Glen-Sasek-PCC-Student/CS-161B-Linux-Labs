@@ -2,33 +2,67 @@
 
 ## Instructions for Lab 1
 
-Watch the videos in Module 6, Lesson **Linux Tutorials** before you do this Lab 1\. Read Chapters 1 and 2 in the [PCC Linux and Vim Manual](https://docs.google.com/document/d/1Ap4xFkNUkUbi7kYteg0KEIu9I9_hAuDZBtubA3ExxLM/edit?usp=sharing) to prepare for this lab.  
+Watch the videos in Module 6, Lesson **Linux Tutorials** before you do this Lab 1\. Read Chapters 1 and 2 in the [PCC Linux and Vim Manual](https://docs.google.com/document/d/1Ap4xFkNUkUbi7kYteg0KEIu9I9_hAuDZBtubA3ExxLM/edit?usp=sharing) to prepare for this lab. 
 
 
-Here is a [video for Lab1](https://youtu.be/H4eJy0lDNYM), that you can follow along as you do this Lab.  
-
-1. login to PCC Linux Server (**cslinux.pcc.edu**)  
+1. login to PCC Linux Server (**cslinux.pcc.edu**).  
+   ```ssh your.name@cslinux.pcc.edu``` 
 2. Make sure you are in your home directory.  
-5. (Your home directory should look like this: **yourname@vmcslinuxprod01:\~/**)  
-6. If not type **cd** and hit enter to get you back to the home directory  
-7. From your home directory, start the **script** command \- type **script lab1.txt** at the command line.  
-8. List the files in your current directory	**ls**  
-9. Move into the directory for your class 	**cd  CS161B** (If this directory does not exist, go back to Step 1).  
-10. Make a new directory for Lab1 	**mkdir Lab1**  
-11. Change into that directory    	**cd Lab1**  
-12. Type **vi lab1.cpp** and hit enter  
-13. Insert header comments to your file by typing **i** followed by comments  
-14. When you are done, hit the escape key  
-15. Let’s now save our work by typing **:w**  
-16. Add code to this cpp file by following the video or reading through the Linux Manual on How to use Vim, or by using any one of the resources mentioned in the Special PSU Transfer section in your Syllabus  
-17. When you are done, hit the **escape key**  
-18. Save and quit your work by typing **:wq**  
-19. The next step is to compile the C++ source code file. To compile the lab1.cpp code type:  
-    **g++ \-Wall \-g lab1.cpp \-o lab1**  
-20. If there are syntax errors, examine the line number of the first 2 or 3 errors and fix those before continuing. To fix the syntax errors use the Linux editor again:  
-    **vi lab1.cpp**  
-21. To run your program type **./lab1**, and the output will appear directly below. Test your program several times with different inputs and make sure your code is working properly.  
-22. Type **exit** and you are almost done with Lab 1 and you should have an **lab1.txt** file.  
-23. Type **ls** to list the contents of your directory. You should see **lab1.txt**  
-24. Follow the instructions in the Transferring Files section of your PCC Linux Manual and transfer the file to your pc and upload to D2L with assignment 5\.  
-25. Now you are done with Lab 1\.
+   ```cd```  
+   The cd command with no additional parameters changes to your home directory.
+   (Your home directory should look like this: **yourname@vmcslinuxprod01:\~/**)  
+   ```pwd```  
+   Print the working directory.  
+3. List the files in your current directory.    
+   ```ls```
+4. Move into the directory for your class.  
+   ```cd  CS161B```  
+   If this directory does not exist, make it, then cd to it.  
+   ```mkdir CS161B```   
+   ```cd CS161B```
+5. Make a new directory for Lab1.  
+   ```mkdir Lab1```  
+6. Change into that directory  
+   ```cd Lab1```  
+7. Create a file named lab1.cpp using the vim editor.  
+   ```vim lab1.cpp```
+8. Insert header comments with your name and date.  
+   The vim editor opens in command mode.   
+   **Press i to enter Insert mode, then add comments**.  
+   ```
+   // Your Name  
+   // Todays Date
+   ```    
+9.  Press the escape **esc** key to return to command mode.
+10. Press the colon **:** key to enter last line mode.  
+11. Save your work by typing **w** followed by enter. This is the write command.  
+12. Add hello world code to this cpp file.  
+    ```
+    #include <iostream>
+
+    using namespace std;
+
+    int main() {
+        cout << "Hello, World!" << endl;
+    }
+    ```
+13. Press the escape **esc** key to return to command mode. 
+14. Press the colon **:** key to enter last line mode.
+15. Save and quit your work by typing **wq** followed by enter. You can combine w and q to write and quit or use each alone.  
+16. The next step is to compile the C++ source code file. To compile the lab1.cpp code type:  
+    ```g++ -Wall -g lab1.cpp -o lab1```  
+17. If there are syntax errors, examine the line number of the first 2 or 3 errors and fix those before continuing. To fix the syntax errors use the Linux editor again:    
+    ```vim lab1.cpp```  
+18. Run your program.  
+    ```./lab1```
+19. Save your command history in a file named **lab1.txt**  
+    ```history > lab1.txt```  
+20. Verify the file was created.  
+    ```ls```  
+    You should see **lab1.txt**
+    Optional: view the file content.  
+    ```cat lab1.txt``` 
+21. Download the file from our Linux server to your local machine.
+22. Upload to D2L.  
+    
+For help downloading and uploading to D2L see the instructions in the Transferring Files section of your PCC Linux Manual.
