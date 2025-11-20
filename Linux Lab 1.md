@@ -2,10 +2,13 @@
 
 ## Instructions for Lab 1
 
-1. Watch the videos in Module 6, Lesson **Linux Tutorials** before you do this Lab 1\. You must have completed the practice in Chapters 1 and 2 in the [PCC Linux and Vim Manual](https://docs.google.com/document/d/1Ap4xFkNUkUbi7kYteg0KEIu9I9_hAuDZBtubA3ExxLM/edit?usp=sharing) to be able to do this lab.  
-2. Here is a [video for Lab1](https://youtu.be/H4eJy0lDNYM), that you can follow along as you do this Lab.  
-3. First, login to PCC Linux Server (**cslinux.pcc.edu**)  
-4. Make sure you are in your home directory.  
+Watch the videos in Module 6, Lesson **Linux Tutorials** before you do this Lab 1\. Read Chapters 1 and 2 in the [PCC Linux and Vim Manual](https://docs.google.com/document/d/1Ap4xFkNUkUbi7kYteg0KEIu9I9_hAuDZBtubA3ExxLM/edit?usp=sharing) to prepare for this lab.  
+
+
+Here is a [video for Lab1](https://youtu.be/H4eJy0lDNYM), that you can follow along as you do this Lab.  
+
+1. login to PCC Linux Server (**cslinux.pcc.edu**)  
+2. Make sure you are in your home directory.  
 5. (Your home directory should look like this: **yourname@vmcslinuxprod01:\~/**)  
 6. If not type **cd** and hit enter to get you back to the home directory  
 7. From your home directory, start the **script** command \- type **script lab1.txt** at the command line.  
