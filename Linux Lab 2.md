@@ -1,9 +1,7 @@
 # Linux Lab 2 \- Basic Vim commands
-
-## Instructions for Lab 2
-
 Read Chapters 3.1 and 3.2 in the [PCC Linux and Vim Manual](https://docs.google.com/document/d/1Ap4xFkNUkUbi7kYteg0KEIu9I9_hAuDZBtubA3ExxLM/edit?usp=sharing) to prepare for this lab.  
 
+## Login and Make a Directory
 1. login to PCC Linux Server (**cslinux.pcc.edu**).  
    ```ssh your.name@cslinux.pcc.edu``` 
 2. Check you are working in your home directory.  
@@ -23,7 +21,8 @@ Read Chapters 3.1 and 3.2 in the [PCC Linux and Vim Manual](https://docs.google.
    ```mkdir Lab2```  
 6. Change into that directory  
    ```cd Lab2```  
-7. Copy a file from a different folder to your folder.  
+## Use vim
+7. Copy a file to your folder.  
    ```cp ~gd.iyer/CS161B/samples/sample_a01.cpp .```  
    (Include the period at the end, this tells the command to copy the file to your current folder.) 
 8. Open the file in the vim editor.  
@@ -52,6 +51,7 @@ Read Chapters 3.1 and 3.2 in the [PCC Linux and Vim Manual](https://docs.google.
 18. Use the **i** command to enter insert mode and add some random characters.  
 19. Enter command mode by pressing **esc**  
 20. Now you can quit without storing your changes **:q!**  
+## Compile Source Code and Run Program
 21. The next step is to compile the C++ source code file. To compile the sample_a01.cpp code type:  
     ```g++ -Wall -g sample_a01.cpp -o sample_a01```  
 22. If there are syntax errors, examine the line number of the first 2 or 3 errors and fix those before continuing. To fix the syntax errors use the Linux editor again:    
@@ -60,6 +60,7 @@ Read Chapters 3.1 and 3.2 in the [PCC Linux and Vim Manual](https://docs.google.
 23. Run your program.  
     ```./sample_a01```   
     Test your program several times with different inputs.
+## Save and Submit
 24. Save your command history in a file named **lab2.txt**  
     ```history > lab2.txt```  
 25. Verify the file was created.  
