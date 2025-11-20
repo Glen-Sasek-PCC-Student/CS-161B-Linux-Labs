@@ -1,1 +1,23 @@
-# PCC-CS-161A-161B-ASSIGNMENTS-CLONE-ME
+# November 2025 Updated Instructions
+
+
+# Original Instructions and Videos 
+
+Lab 1  
+https://docs.google.com/document/d/1DxdoH8hTQwd7_3mNxzIokFJqkudej12SBPoewY2mIQ0/edit?usp=sharing  
+https://youtu.be/H4eJy0lDNYM
+
+
+Lab 2  
+https://docs.google.com/document/d/1JVSc7NBXg-mh_Wjn22KNWvUH6NuLQGMAYCJh3x-JjY4/edit?usp=sharing  
+https://youtu.be/o37NNh5Ml5I  
+
+
+Lab 3  
+https://docs.google.com/document/d/1WTlk484I-ws4fqI2-rd9ImuzVWO6UjoEXjtyr4tPSIA/edit?usp=sharing  
+https://youtu.be/3CAcTuoTMfM  
+
+
+Lab 4  
+https://docs.google.com/document/d/1mbw3GGb7NRb9-nxOnG3bI2YdTiiszFU8wEntDJuqx9Y/edit?usp=sharing  
+https://youtu.be/S2snjD9R4Rw  
