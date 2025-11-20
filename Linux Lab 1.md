@@ -2,7 +2,7 @@
 
 ## Instructions for Lab 1
 
-Watch the videos in Module 6, Lesson **Linux Tutorials** before you do this Lab 1\. Read Chapters 1 and 2 in the [PCC Linux and Vim Manual](https://docs.google.com/document/d/1Ap4xFkNUkUbi7kYteg0KEIu9I9_hAuDZBtubA3ExxLM/edit?usp=sharing) to prepare for this lab. 
+Read Chapters 1 and 2 in the [PCC Linux and Vim Manual](https://docs.google.com/document/d/1Ap4xFkNUkUbi7kYteg0KEIu9I9_hAuDZBtubA3ExxLM/edit?usp=sharing) to prepare for this lab. 
 
 
 1. login to PCC Linux Server (**cslinux.pcc.edu**).  
